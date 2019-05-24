@@ -9,6 +9,5 @@ def main(token):
 	api.pyTelegramApi.addcommand('/sendSticker' , 'sticker.sendSticker')
 	api.pyTelegramApi.addcommand('/ava' , 'fun.ava')
 	api.pyTelegramApi.addcommand('/start' , 'system.ver')
-	api.pyTelegramApi.addcommand('/help' , 'system.ver')
 	#Проверка на правильность токена
 	api.pyTelegramApi.checkToken(api.pyTelegramApi.getToken(api)) #Проверка на подлиность токе
